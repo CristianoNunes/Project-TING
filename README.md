@@ -214,7 +214,7 @@ Devemos implementar os métodos de inserção (`enqueue`), remoção (`dequeue`)
 
 Vamos expor o tamanho da nossa fila através do método `__len__`.
 
-Na busca, caso um índice inválido seja passado, uma exceção do tipo `IndexError` deve ser lançada.
+Na busca, caso um índice inválido seja passado, uma exceção do tipo `IndexError` deve ser lançada. Para essa classe, índices negativos devem ser inválidos.
 
 ##### As seguintes verificações serão feitas:
 
