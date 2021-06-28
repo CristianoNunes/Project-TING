@@ -9,7 +9,9 @@ class Queue:
         return self._data.append(value)
 
     def dequeue(self):
-        return self._data.pop(0)
+        file = self._data[0]
+        self._data.pop(0)
+        return file
 
     def search(self, index):
         if(self._data[index] and index >= 0):
